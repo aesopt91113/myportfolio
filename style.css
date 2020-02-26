@@ -3,3 +3,12 @@
   flex: 0 0 100%;
   max-width: 100%;
 }
+
+.contact_padding {
+  padding: 0 100px 40px;
+}
+
+.listprop ul, li {
+  list-style: none;
+  display: inline-block;
+}
