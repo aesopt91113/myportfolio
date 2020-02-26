@@ -15,14 +15,14 @@
 
 <body>
   <!-- Bootstrap 4.4.1 -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Home</a>
+  <nav class="navbar navbar-expand-lg navbar-light position-fixed navbartextcolor navbar-z w-100">
+    <a class="navbar-brand" href="#home">Home</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav">
         <li class="nav-item active">
           <a class="nav-link" href="#recentwork">Recent Works</a>
         </li>
@@ -30,48 +30,46 @@
           <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
-    <!-- float right -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
+
+      <ul class="navbar-nav ml-auto iconalign">
         <li class="nav-item active">
-          <a class="nav-link" href="https://www.instagram.com/meyran.l/"><i class="fab fa-instagram"></i></a>
+          <a class="nav-link iconpad" href="https://www.instagram.com/meyran.l/"><i class="fab fa-instagram"></i></a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="https://www.facebook.com/meyran.lee"><i class="fab fa-facebook-square"></i></a>
+          <a class="nav-link iconpad" href="https://www.facebook.com/meyran.lee"><i class="fab fa-facebook-square"></i></a>
         </li>
         <li class="nav-item active">
           <a class="nav-link" href="https://www.linkedin.com/in/meyran-lee-914b1bb3/"><i class="fab fa-linkedin"></i></a>
         </li>
       </ul>
+    </div>
   </nav>
 
   <!-- main body -->
-  <div class="container-fluid background d-flex align-items-center">
-    <div class="row w-100">
-      <div class="col-12 text-center introtextcolor">
-        <div class="pb-3 titlefont">
-          <h1>Meyran Lee</h1>
-        </div>
-        <div>
-          <h4>Full Stack Web Developer</h4>
-        </div>
-        <div class="hrprop">
-          <li>
-            <button type="button" class="btn btnprop goldcolorborder goldcolortext">
-              <a class="nav-link" href="https://www.instagram.com/meyran.l/"><i class="fab fa-instagram pr-1"></i> Instagram</a>
-            </button>
-          </li>
-          <li>
-            <button type="button" class="btn btnprop goldcolorborder goldcolortext">
-              <a class="nav-link" href="https://www.facebook.com/meyran.lee"><i class="fab fa-facebook-square pr-1"></i> Facebook</a>
-            </button>
-          </li>
-          <li>
-            <button type="button" class="btn btnprop goldcolorborder goldcolortext">
-              <a class="nav-link" href="https://www.linkedin.com/in/meyran-lee-914b1bb3/"><i class="fab fa-linkedin pr-1"></i> LinkedIn</a>
-            </button>
-          </li>
-        </div>
+  <div class="d-flex align-items-center background backgroundpos" id="home">
+    <div class="col text-center introtextcolor">
+      <div class="pb-3 titlefont">
+        <h1>Meyran Lee</h1>
+      </div>
+      <div>
+        <h4>Full Stack Web Developer</h4>
+      </div>
+      <div class="hrprop">
+        <li>
+          <button type="button" class="btn btnprop goldcolorborder goldcolortext">
+            <a class="nav-link" href="https://www.instagram.com/meyran.l/"><i class="fab fa-instagram pr-1"></i> Instagram</a>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="btn btnprop goldcolorborder goldcolortext">
+            <a class="nav-link" href="https://www.facebook.com/meyran.lee"><i class="fab fa-facebook-square pr-1"></i> Facebook</a>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="btn btnprop goldcolorborder goldcolortext">
+            <a class="nav-link" href="https://www.linkedin.com/in/meyran-lee-914b1bb3/"><i class="fab fa-linkedin pr-1"></i> LinkedIn</a>
+          </button>
+        </li>
       </div>
     </div>
   </div>

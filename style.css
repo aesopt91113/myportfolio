@@ -1,14 +1,40 @@
 /* navbar properties */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
 .navwordcolor a {
   color: #f8f6f4;
 }
+
+.navbar-z {
+  z-index: 1;
+}
+
+.navbartextcolor a, button, li {
+  color: #f8f6f4 !important;
+}
+
+.show .iconalign {
+  flex-direction: row;
+}
+
+.show .iconpad  {
+  padding-right: 12px !important;
+}
+
 /* intro section properties */
 .background {
   background-image: url("C:/Users/sps_user/Desktop/Programming software/Webdesignium/myportfolio/images/introbackground.jpg");
   background-repeat: no-repeat;
-  height: 500px;
+  height: 600px;
   background-position: center;
   background-size: cover;
+}
+
+.backgroundpos {
+  z-index: -1;
+
 }
 
 .introtextcolor {
