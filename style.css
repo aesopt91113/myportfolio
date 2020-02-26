@@ -1,3 +1,35 @@
+/* navbar properties */
+.navwordcolor a {
+  color: #f8f6f4;
+}
+/* intro section properties */
+.background {
+  background-image: url("C:/Users/sps_user/Desktop/Programming software/Webdesignium/myportfolio/images/introbackground.jpg");
+  background-repeat: no-repeat;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+}
+
+.introtextcolor {
+   color: white; /*#c0a064; */
+}
+
+.titlefont h1 {
+  font-size: 60px;
+}
+
+.hrprop li {
+  padding-top: 2.5rem;
+}
+
+.btnprop {
+  padding: .1rem .1rem;
+  font-size: .875rem;
+  line-height: 1;
+  border-radius: .2rem;
+}
+
 /* contact properties */
 .column-12 {
   flex: 0 0 100%;
@@ -11,4 +43,25 @@
 .listprop ul, li {
   list-style: none;
   display: inline-block;
+}
+
+/* global properties */
+.goldcolortext, a {
+  color: #c0a064;
+}
+.goldcolorborder {
+  background-color: transparent;
+  border: 1px solid #c0a064;
+}
+
+.darkborder {
+  border: 1px solid #2c2a28;
+}
+
+.logocolor a {
+  color: #2c2a28;
+}
+
+.darktext {
+  color: #6c6a68;
 }
