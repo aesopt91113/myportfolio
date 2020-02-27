@@ -1,10 +1,6 @@
 /* navbar properties */
 .navbar {
-  background-color: rgba(0, 0, 0, 0.4);
-}
-
-.navwordcolor a {
-  color: #f8f6f4;
+  background-color: rgba(163, 163, 163, 0.9);
 }
 
 .navbar-z {
@@ -12,7 +8,7 @@
 }
 
 .navbartextcolor a, button, li {
-  color: #f8f6f4 !important;
+  color: rgb(241, 203, 131) !important;
 }
 
 .show .iconalign {
@@ -22,6 +18,11 @@
 .show .iconpad  {
   padding-right: 12px !important;
 }
+
+.navbar-light .navbar-toggler {
+  border-color: transparent;
+}
+
 
 /* intro section properties */
 .background {
@@ -38,7 +39,7 @@
 }
 
 .introtextcolor {
-   color: white; /*#c0a064; */
+  color: white;
 }
 
 .titlefont h1 {
@@ -56,6 +57,23 @@
   border-radius: .2rem;
 }
 
+/* Recent works */
+.reworkcontainer {
+  padding-right: 70px !important;
+  padding-left: 70px !important;
+  padding-top: 60px !important;
+}
+
+.headingprop {
+  margin-bottom: 30px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.workbackground {
+  background-color: #f8f6f4;
+}
+
 /* contact properties */
 .column-12 {
   flex: 0 0 100%;
@@ -63,7 +81,7 @@
 }
 
 .contact_padding {
-  padding: 0 100px 40px;
+  padding: 60px 100px 40px;
 }
 
 .listprop ul, li {
